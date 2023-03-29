@@ -3,6 +3,7 @@ import contentImg from '../../../Resources/Services/Content.jpg';
 import audioPodcastImg from '../../../Resources/Services/audiopodcast.jpg';
 import videoPodcastImg from '../../../Resources/Services/videopodcast.jpg';
 import videoEditingImg from '../../../Resources/Services/videoediting.jpg';
+import graphicImg from '../../../Resources/Services/graphic.png';
 import { Link } from 'react-router-dom';
 
 const ContentDevelopmentPage = () => {
@@ -60,6 +61,19 @@ const ContentDevelopmentPage = () => {
                         <img style={{ height: '400px' }} src={videoEditingImg} class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title fs-3">Video Editing</h5>
+                            <p class="card-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit totam illo odit,
+                                harum saepe facere autem impedit in accusantium esse est similique nostrum natus tenetur repudiandae odio fuga
+                                perspiciatis! Ea eveniet perferendis officiis fugit consectetur necessitatibus rerum, accusamus adipisci commodi
+                                quaerat at voluptates voluptatem reprehenderit repellendus doloribus veniam repellat temporibus. </p>
+                        </div>
+                        <Link className='text-center' to='/contactus'> <button type="button" class="btn btn-outline-primary">Contact us</button> </Link>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img style={{ height: '400px' }} src={graphicImg} class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Graphic Design</h5>
                             <p class="card-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit totam illo odit,
                                 harum saepe facere autem impedit in accusantium esse est similique nostrum natus tenetur repudiandae odio fuga
                                 perspiciatis! Ea eveniet perferendis officiis fugit consectetur necessitatibus rerum, accusamus adipisci commodi
