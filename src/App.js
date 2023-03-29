@@ -6,6 +6,9 @@ import About from './Components/About/About';
 import Services from './Components/Services/Services';
 import Footer from './Components/Footer/Footer';
 import Layout from './Components/Layout/Layout';
+import SeoPage from './Components/Services/SeoPage/SeoPage';
+import SmmPage from './Components/Services/SmmPage/SmmPage';
+import ContentDevelopmentPage from './Components/Services/ContentDevelopmentPage/ContentDevelopmentPage';
 
 function App() {
   // const router = createBrowserRouter([
@@ -27,6 +30,9 @@ function App() {
         <Route path='/home' element={<Home></Home>} />
         <Route path='/about' element={<About></About>} />
         <Route path='/services' element={<Services></Services>} />
+        <Route path='/seopage' element={<SeoPage></SeoPage>} />
+        <Route path='/smmpage' element={<SmmPage></SmmPage>} />
+        <Route path='/contentpage' element={<ContentDevelopmentPage></ContentDevelopmentPage>} />
       </Routes>
     </Layout>
     </BrowserRouter>
